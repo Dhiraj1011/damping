@@ -31,7 +31,7 @@ v = [0]
 x = [A]
 i = 0
 
-while t[-1] <= tmax:
+while t[0] <= tmax:
     k1x = funcx()
     k2x = funcx()
     k3x = funcx()
