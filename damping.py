@@ -48,7 +48,7 @@ while t[-1] <= tmax:
 
 if (b**2-4*m*k)>0:
     plt.subplot(1,2,1)
-    plt.plot(t,x,color='red')
+    plt.plot(t,x,color='yellow')
     plt.ylim(-A-1, A+1)
     plt.grid()
     plt.title('Overdamped \n position vs time')
@@ -74,7 +74,7 @@ if (b**2-4*m*k)==0:
 
 if (b**2-4*m*k)<0:
     plt.subplot(1,2,1)
-    plt.plot(t,x,color='red')
+    plt.plot(t,x,color='green')
     plt.ylim(-A-1, A+1)
     plt.grid()
     plt.title('Underdamped \n position vs time')
