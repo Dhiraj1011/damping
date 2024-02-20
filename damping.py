@@ -46,7 +46,7 @@ while t[0] <= tmax:
 
     v.append(v[i] + (1 / 6) * (k1 + 2 * k2 + 2 * k3 + k4) * dt)
 
-    t.append(t[-1] + dt)
+    t.append(t[0] + dt)
     i += 1
 
 if (b**2-4*m*k)>0:
