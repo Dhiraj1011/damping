@@ -5,11 +5,12 @@ import streamlit as st
 st.title('TYPES OF DAMPING')
 st.header('',divider='rainbow')
 
-
-A=int(st.number_input('Enter the Amplitude'))
-m=int(st.number_input('Enter the mass',min_value=1))
-k=int(st.number_input('Enter the spring constant value'))
-b=int(st.number_input('Enter damping constant value'))
+with col1:
+    A=int(st.number_input('Enter the Amplitude'))
+    m=int(st.number_input('Enter the mass',min_value=1))
+with col2:
+    k=int(st.number_input('Enter the spring constant value'))
+    b=int(st.number_input('Enter damping constant value'))
 #dt = 0.01
 
 tmax = 40
