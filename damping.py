@@ -5,6 +5,8 @@ import streamlit as st
 st.title('TYPES OF DAMPING')
 st.header('',divider='rainbow')
 
+col1, col2 = st.columns(2)
+
 with col1:
     A=int(st.number_input('Enter the Amplitude'))
     m=int(st.number_input('Enter the mass',min_value=1))
